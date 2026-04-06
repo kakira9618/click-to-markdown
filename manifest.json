@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Content as Markdown-ish (keep <img>)",
+  "version": "1.2.0",
+  "description": "Extract main content (reader-like), convert to markdown-ish text while keeping <img> tags, then copy.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Copy content (markdown-ish)"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  }
+}
